@@ -3,7 +3,7 @@ runtime:
 
 site:
   title: OpenShift Starter Guides
-  url: http://redhat-scholars.github.io/openshift-starter-guides/
+  url: http://rampadc.github.io/openshift-starter-guides/
   start_page: rhs-openshift-starter-guides::index.adoc
 
 content:
@@ -15,7 +15,6 @@ content:
 
 asciidoc:
   attributes:
-    #title: OpenShift Starter Guides
     experimental: true
     parksmap-version: latest
     parksmap-image: quay.io/openshiftroadshow/parksmap
@@ -33,9 +32,8 @@ asciidoc:
 
 ui:
   bundle:
-    url: https://github.com/redhat-scholars/course-ui/releases/download/v0.1.8/ui-bundle.zip
+    url: https://github.com/rampadc/antora-x-carbon/releases/download/main-a6acadf/ui-bundle.zip
     snapshot: true
-  supplemental_files: ./supplemental-ui
 
 output:
   dir: ./gh-pages
