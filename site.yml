@@ -3,7 +3,7 @@ runtime:
 
 site:
   title: OpenShift Starter Guides
-  url: http://rampadc.github.io/openshift-starter-guides/
+  url: http://rampadc.github.io/openshift-starter-guides-carbon/
   start_page: rhs-openshift-starter-guides::index.adoc
 
 content:
