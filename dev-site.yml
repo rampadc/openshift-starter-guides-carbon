@@ -10,7 +10,7 @@ content:
   sources:
     - url: .
       branches: HEAD
-      #branches: [ocp-4.7, ocp-4.8, ocp-4.9] 
+      #branches: [ocp-4.7, ocp-4.8, ocp-4.9]
       start_path: documentation
       #- url: git@github.com:redhat-scholars/openshift-starter-guides-dotnet.git
       #branches: ocp-4.6
@@ -36,7 +36,7 @@ asciidoc:
     - ./lib/tab-block.js
 ui:
   bundle:
-    url: https://github.com/rampadc/antora-x-carbon/releases/download/main-a6acadf/ui-bundle.zip
+    url: ./antora_ui/build/ui-bundle.zip
     snapshot: true
 output:
   dir: ./gh-pages
