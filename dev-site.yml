@@ -40,3 +40,6 @@ ui:
     snapshot: true
 output:
   dir: ./gh-pages
+antora:
+  extensions:
+    - '@antora/lunr-extension'

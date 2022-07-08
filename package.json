@@ -8,8 +8,9 @@
     "url": "https://twitter.com/@kamesh_sampath"
   },
   "dependencies": {
-    "@antora/cli": "^2.3.1",
-    "@antora/site-generator-default": "^2.3.1",
+    "@antora/cli": "3.0.1",
+    "@antora/lunr-extension": "^1.0.0-alpha.8",
+    "@antora/site-generator": "3.0.1",
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
     "@babel/polyfill": "^7.4.4",
@@ -20,7 +21,6 @@
     "gulp": "^4.0.0",
     "yaml-js": "^0.2.3"
   },
-  "devDependencies": {},
   "scripts": {
     "dev": "gulp",
     "clean": "gulp clean",
