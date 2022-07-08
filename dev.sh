@@ -6,7 +6,7 @@ _CURR_DIR="$( cd "$(dirname "$0")" ; pwd -P )"
 # rm -rf $_CURR_DIR/gh-pages $_CURR_DIR/.cache
 
 cd antora_ui
-gulp pack
+gulp bundle:dev
 cd ..
 
 npx antora --fetch ${SITE_YAML}
